@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A394E09F588E89B8636F328258D8E4D9 /* Pods-ImagePickerResizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02FB4D2041598088D7BE88BDED29AA /* Pods-ImagePickerResizer-dummy.m */; };
+		A3DDEAA46F1F9B5561A1EAF4CCCD8283 /* Pods-ImagePickerResizer-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C49AC14238C4489B6B89DD483C56CC1F /* Pods-ImagePickerResizer-tvOSTests-dummy.m */; };
+		A5EC1A7CCB5BE5D0A7CE2283BDC7EBB7 /* Pods-ImagePickerResizer-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD71C1F54C016E94C97AF7CAF8B682E4 /* Pods-ImagePickerResizer-tvOS-dummy.m */; };
+		B526A9943F926D58F26180AA30DC665F /* Pods-ImagePickerResizerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9B859E23F7E3AEFDE462E445CA4F6 /* Pods-ImagePickerResizerTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E79E932C598D7CAC1E3D8D4105519E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65ABBAFD352147B7F30D3A38246445B1;
+			remoteInfo = "Pods-ImagePickerResizer-tvOS";
+		};
+		7EFA3E609FCF9E958A86FEE7CCE4F6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6785D90AEF13CA16F195CDEB1492FF7C;
+			remoteInfo = "Pods-ImagePickerResizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084178623B58EE8DFF25A6AC49834901 /* Pods-ImagePickerResizer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A02FB4D2041598088D7BE88BDED29AA /* Pods-ImagePickerResizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerResizer-dummy.m"; sourceTree = "<group>"; };
+		1DC9B859E23F7E3AEFDE462E445CA4F6 /* Pods-ImagePickerResizerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerResizerTests-dummy.m"; sourceTree = "<group>"; };
+		35E02097439CCDD8DEF0731F0A5ECAC3 /* Pods-ImagePickerResizer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38572E8844C97B99389275AA43BFA3EB /* Pods-ImagePickerResizerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerResizerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D2B349B22E857459E8400AFD30BD80A /* Pods-ImagePickerResizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerResizer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63B97821757FCD26CE3629C9BB727A95 /* Pods-ImagePickerResizer-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerResizer-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6408549FB289EF2FCD9C194908982F9E /* libPods-ImagePickerResizer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ImagePickerResizer-tvOS.a"; path = "libPods-ImagePickerResizer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCE33D8F59CF49D839A1A27D39C494 /* Pods-ImagePickerResizer-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerResizer-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74F541FED8F64ACE589E13B8019A5213 /* libPods-ImagePickerResizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ImagePickerResizer.a"; path = "libPods-ImagePickerResizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD4145618758A2A16729B0A2AD5ACF1 /* libPods-ImagePickerResizerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ImagePickerResizerTests.a"; path = "libPods-ImagePickerResizerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8194A81965EE9F2AF3C6DD5647B3690B /* Pods-ImagePickerResizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82F71A62A8334332C02D3F09A28EC547 /* Pods-ImagePickerResizer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8B884F77FBE06EF1B0A419DF21474F2E /* libPods-ImagePickerResizer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ImagePickerResizer-tvOSTests.a"; path = "libPods-ImagePickerResizer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FEEA5A8FDAE2FB356BC323980830EA /* Pods-ImagePickerResizerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerResizerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B883D6C967C59842FE9EB46B83B769FC /* Pods-ImagePickerResizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB43FCC3AEB62FBF0D2879EFA123E11E /* Pods-ImagePickerResizer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C28B96CDF1728002F04AFF92F54B14E8 /* Pods-ImagePickerResizer-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerResizer-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C49AC14238C4489B6B89DD483C56CC1F /* Pods-ImagePickerResizer-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerResizer-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		C93BE030549EA32B1C4ACFAA30E87A93 /* Pods-ImagePickerResizer-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerResizer-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC92E5966A168B1DBD6CEAEC2F8EF958 /* Pods-ImagePickerResizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerResizer-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6006169B113FADA2FB6037A1D79324A /* Pods-ImagePickerResizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizer.debug.xcconfig"; sourceTree = "<group>"; };
+		DD71C1F54C016E94C97AF7CAF8B682E4 /* Pods-ImagePickerResizer-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerResizer-tvOS-dummy.m"; sourceTree = "<group>"; };
+		EF754233EE9CBAC0A276496D16578FD9 /* Pods-ImagePickerResizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerResizer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4827CAB5DEA75CB525DA6BB57A3F76F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE9CE655AF8D41ADA27180C5847E7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F6E943FC2458AE62E525DA555733A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF511E3890AC9F96FA21CBDB41C357D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E45843063234CA9B719EE88745C3924 /* Pods-ImagePickerResizer-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C93BE030549EA32B1C4ACFAA30E87A93 /* Pods-ImagePickerResizer-tvOSTests-acknowledgements.markdown */,
+				6EFCE33D8F59CF49D839A1A27D39C494 /* Pods-ImagePickerResizer-tvOSTests-acknowledgements.plist */,
+				C49AC14238C4489B6B89DD483C56CC1F /* Pods-ImagePickerResizer-tvOSTests-dummy.m */,
+				35E02097439CCDD8DEF0731F0A5ECAC3 /* Pods-ImagePickerResizer-tvOSTests.debug.xcconfig */,
+				084178623B58EE8DFF25A6AC49834901 /* Pods-ImagePickerResizer-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerResizer-tvOSTests";
+			path = "Target Support Files/Pods-ImagePickerResizer-tvOSTests";
+			sourceTree = "<group>";
+		};
+		108A9324D3D1EE285332F82FD149A745 /* Pods-ImagePickerResizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93FEEA5A8FDAE2FB356BC323980830EA /* Pods-ImagePickerResizerTests-acknowledgements.markdown */,
+				38572E8844C97B99389275AA43BFA3EB /* Pods-ImagePickerResizerTests-acknowledgements.plist */,
+				1DC9B859E23F7E3AEFDE462E445CA4F6 /* Pods-ImagePickerResizerTests-dummy.m */,
+				8194A81965EE9F2AF3C6DD5647B3690B /* Pods-ImagePickerResizerTests.debug.xcconfig */,
+				B883D6C967C59842FE9EB46B83B769FC /* Pods-ImagePickerResizerTests.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerResizerTests";
+			path = "Target Support Files/Pods-ImagePickerResizerTests";
+			sourceTree = "<group>";
+		};
+		16611481B783A7C4268ADFEA45922001 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A41671DE31B60E9AC1BA020F4CEF61 /* Pods-ImagePickerResizer */,
+				AE0F7F52DAE2C819FA4FF3E72A5D231B /* Pods-ImagePickerResizer-tvOS */,
+				0E45843063234CA9B719EE88745C3924 /* Pods-ImagePickerResizer-tvOSTests */,
+				108A9324D3D1EE285332F82FD149A745 /* Pods-ImagePickerResizerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2BFB549853A41EB606E5D1FBD0418F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F541FED8F64ACE589E13B8019A5213 /* libPods-ImagePickerResizer.a */,
+				6408549FB289EF2FCD9C194908982F9E /* libPods-ImagePickerResizer-tvOS.a */,
+				8B884F77FBE06EF1B0A419DF21474F2E /* libPods-ImagePickerResizer-tvOSTests.a */,
+				7DD4145618758A2A16729B0A2AD5ACF1 /* libPods-ImagePickerResizerTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0F7F52DAE2C819FA4FF3E72A5D231B /* Pods-ImagePickerResizer-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C28B96CDF1728002F04AFF92F54B14E8 /* Pods-ImagePickerResizer-tvOS-acknowledgements.markdown */,
+				63B97821757FCD26CE3629C9BB727A95 /* Pods-ImagePickerResizer-tvOS-acknowledgements.plist */,
+				DD71C1F54C016E94C97AF7CAF8B682E4 /* Pods-ImagePickerResizer-tvOS-dummy.m */,
+				82F71A62A8334332C02D3F09A28EC547 /* Pods-ImagePickerResizer-tvOS.debug.xcconfig */,
+				BB43FCC3AEB62FBF0D2879EFA123E11E /* Pods-ImagePickerResizer-tvOS.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerResizer-tvOS";
+			path = "Target Support Files/Pods-ImagePickerResizer-tvOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2BFB549853A41EB606E5D1FBD0418F6B /* Products */,
+				16611481B783A7C4268ADFEA45922001 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A41671DE31B60E9AC1BA020F4CEF61 /* Pods-ImagePickerResizer */ = {
+			isa = PBXGroup;
+			children = (
+				4D2B349B22E857459E8400AFD30BD80A /* Pods-ImagePickerResizer-acknowledgements.markdown */,
+				CC92E5966A168B1DBD6CEAEC2F8EF958 /* Pods-ImagePickerResizer-acknowledgements.plist */,
+				1A02FB4D2041598088D7BE88BDED29AA /* Pods-ImagePickerResizer-dummy.m */,
+				D6006169B113FADA2FB6037A1D79324A /* Pods-ImagePickerResizer.debug.xcconfig */,
+				EF754233EE9CBAC0A276496D16578FD9 /* Pods-ImagePickerResizer.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerResizer";
+			path = "Target Support Files/Pods-ImagePickerResizer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FF4EFE0591C5C7821B4D9B03BAC01E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F71C7D88D07722A05662E281395F34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94802C04167A9B7F3B56B477F10AF854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF501C8B84B1B6CF4EA009F41691926F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		228A91284498FC2BCCC80BEDD14F906A /* Pods-ImagePickerResizer-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4821C261A20D4A584B6DB61E0DDF87FF /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizer-tvOSTests" */;
+			buildPhases = (
+				94802C04167A9B7F3B56B477F10AF854 /* Headers */,
+				057044123665AD49F61A2C9420AE9C6F /* Sources */,
+				AC1F6E943FC2458AE62E525DA555733A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FE1744B0DDA40B5F96BF4090E7324D /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickerResizer-tvOSTests";
+			productName = "Pods-ImagePickerResizer-tvOSTests";
+			productReference = 8B884F77FBE06EF1B0A419DF21474F2E /* libPods-ImagePickerResizer-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50DC3E90039B01FC6FC5A68721D282B4 /* Pods-ImagePickerResizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9A69CE68A0683702340E49DD3DFF11 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizerTests" */;
+			buildPhases = (
+				82F71C7D88D07722A05662E281395F34 /* Headers */,
+				1005724D5113B48FFA58F435CD3F1998 /* Sources */,
+				5CE9CE655AF8D41ADA27180C5847E7F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4532A7140DE4A0F95BF83786EBF57A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickerResizerTests";
+			productName = "Pods-ImagePickerResizerTests";
+			productReference = 7DD4145618758A2A16729B0A2AD5ACF1 /* libPods-ImagePickerResizerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65ABBAFD352147B7F30D3A38246445B1 /* Pods-ImagePickerResizer-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661C32EE788A5665A11C95F987DA7EA6 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizer-tvOS" */;
+			buildPhases = (
+				0FF4EFE0591C5C7821B4D9B03BAC01E7 /* Headers */,
+				0EC1F8D0DC3CE36F78A64F7D62DD407D /* Sources */,
+				4827CAB5DEA75CB525DA6BB57A3F76F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ImagePickerResizer-tvOS";
+			productName = "Pods-ImagePickerResizer-tvOS";
+			productReference = 6408549FB289EF2FCD9C194908982F9E /* libPods-ImagePickerResizer-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6785D90AEF13CA16F195CDEB1492FF7C /* Pods-ImagePickerResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44184BCEB88DEFDA72B795F9CB383EED /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizer" */;
+			buildPhases = (
+				EF501C8B84B1B6CF4EA009F41691926F /* Headers */,
+				940E9D128FFCD3E69B8A398AB903FA21 /* Sources */,
+				CF511E3890AC9F96FA21CBDB41C357D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ImagePickerResizer";
+			productName = "Pods-ImagePickerResizer";
+			productReference = 74F541FED8F64ACE589E13B8019A5213 /* libPods-ImagePickerResizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2BFB549853A41EB606E5D1FBD0418F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6785D90AEF13CA16F195CDEB1492FF7C /* Pods-ImagePickerResizer */,
+				65ABBAFD352147B7F30D3A38246445B1 /* Pods-ImagePickerResizer-tvOS */,
+				228A91284498FC2BCCC80BEDD14F906A /* Pods-ImagePickerResizer-tvOSTests */,
+				50DC3E90039B01FC6FC5A68721D282B4 /* Pods-ImagePickerResizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057044123665AD49F61A2C9420AE9C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DDEAA46F1F9B5561A1EAF4CCCD8283 /* Pods-ImagePickerResizer-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC1F8D0DC3CE36F78A64F7D62DD407D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC1A7CCB5BE5D0A7CE2283BDC7EBB7 /* Pods-ImagePickerResizer-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1005724D5113B48FFA58F435CD3F1998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B526A9943F926D58F26180AA30DC665F /* Pods-ImagePickerResizerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E9D128FFCD3E69B8A398AB903FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A394E09F588E89B8636F328258D8E4D9 /* Pods-ImagePickerResizer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FE1744B0DDA40B5F96BF4090E7324D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImagePickerResizer-tvOS";
+			target = 65ABBAFD352147B7F30D3A38246445B1 /* Pods-ImagePickerResizer-tvOS */;
+			targetProxy = 20E79E932C598D7CAC1E3D8D4105519E /* PBXContainerItemProxy */;
+		};
+		D4532A7140DE4A0F95BF83786EBF57A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImagePickerResizer";
+			target = 6785D90AEF13CA16F195CDEB1492FF7C /* Pods-ImagePickerResizer */;
+			targetProxy = 7EFA3E609FCF9E958A86FEE7CCE4F6EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DA21D80C1F11FE741A29D1AD54C91F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F71A62A8334332C02D3F09A28EC547 /* Pods-ImagePickerResizer-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		4690D536E8B54FC7605F8DE7B6B6D1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB43FCC3AEB62FBF0D2879EFA123E11E /* Pods-ImagePickerResizer-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58887863A394DD604DFA01DF382F7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084178623B58EE8DFF25A6AC49834901 /* Pods-ImagePickerResizer-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		8777EC67DF63F9BA1184A97BFB65C13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8194A81965EE9F2AF3C6DD5647B3690B /* Pods-ImagePickerResizerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B72AC446E25378697B61D62FF1FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B883D6C967C59842FE9EB46B83B769FC /* Pods-ImagePickerResizerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D952323554510E43929085E988094D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6006169B113FADA2FB6037A1D79324A /* Pods-ImagePickerResizer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF629FBB74EF26F57C6F398C5EEF95C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E02097439CCDD8DEF0731F0A5ECAC3 /* Pods-ImagePickerResizer-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		D8E6698BCD9CB805EAAB5636AA73A302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF754233EE9CBAC0A276496D16578FD9 /* Pods-ImagePickerResizer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44184BCEB88DEFDA72B795F9CB383EED /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D952323554510E43929085E988094D /* Debug */,
+				D8E6698BCD9CB805EAAB5636AA73A302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821C261A20D4A584B6DB61E0DDF87FF /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizer-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF629FBB74EF26F57C6F398C5EEF95C1 /* Debug */,
+				58887863A394DD604DFA01DF382F7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661C32EE788A5665A11C95F987DA7EA6 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizer-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA21D80C1F11FE741A29D1AD54C91F7 /* Debug */,
+				4690D536E8B54FC7605F8DE7B6B6D1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9A69CE68A0683702340E49DD3DFF11 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerResizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777EC67DF63F9BA1184A97BFB65C13B /* Debug */,
+				92B72AC446E25378697B61D62FF1FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

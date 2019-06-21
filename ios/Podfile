@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ImagePickerResizer' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ImagePickerResizer
+
+ 
+
+  target 'ImagePickerResizerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'ImagePickerResizer-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ImagePickerResizer-tvOS
+
+  target 'ImagePickerResizer-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
